@@ -16,6 +16,16 @@
 
 ### Getting started (Setup)
 
+Replace `<username>` and `<password>` with credentials received via order email, to configure composer autorization:
+```shell
+composer config http-basic.setup.fbappdebugger.io <username> <password>
+```
+
+Run create-project to download and install the package requirements: 
+```shell
+composer create-project fbappdebugger/fbappdebugger fbappdebugger
+```
+
 ### Basic usage
 
 ### Advanced usage
