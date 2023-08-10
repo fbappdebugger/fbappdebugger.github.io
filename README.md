@@ -1,4 +1,4 @@
-# 🐛 [FB App Debugger](https://fbappdebugger.github.io)
+# 🐛 [FB App Debugger](https://integrationdbg.io/fbappdebugger)
 
 *Utility for testing and debugging your facebook integration.*
 
@@ -18,12 +18,12 @@
 
 Replace `<username>` and `<password>` with credentials received via order email, to configure composer autorization:
 ```shell
-composer config http-basic.setup.fbappdebugger.io <username> <password>
+composer config http-basic.setup.integrationdbg.io <username> <password>
 ```
 
 Run create-project to download and install the package requirements: 
 ```shell
-composer create-project fbappdebugger/fbappdebugger fbappdebugger
+composer create-project integrationdbg/fbappdebugger fbappdebugger
 ```
 
 ### Basic usage
